@@ -1,0 +1,16 @@
+{
+  "name": "Facebook Chat move",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "This extension be able to move FBChat, luman made",
+  "content_scripts": [{
+    "matches": ["http://*.facebook.com/*"],
+    "js": ["jQuery.js","drag-live.js","drag.js", "FBChat.js"]
+  }],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+  	"tabs", "http://*.facebook.com/*"
+  ]
+}
