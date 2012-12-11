@@ -1,5 +1,4 @@
 
-
 	class="fbNubGroup clearfix fbDockChat"  
 		-> class="fbNubFlyout fbDockChatTabFlyout"
 			->clearfix fbNubFlyoutTitlebar titlebar  <- title bar 클릭시 drag and drop Listerner 발동
@@ -12,7 +11,7 @@
                         top: event.offsetY,
                         left: event.offsetX
                         });
-                        ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 존나웃기네 씨발ㅋㅋㅋㅋㅋ
+                    
                         
                         키보드나 추가해보자
                         
